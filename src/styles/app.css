@@ -1,0 +1,10 @@
+.price:before {
+  content: '$';
+  font-size: 20px;
+  vertical-align: text-top;
+}
+.price::after {
+  content: '97';
+  font-size: 20px;
+  vertical-align: text-top;
+}
